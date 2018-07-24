@@ -1,0 +1,6 @@
+framework module Pods_RSSegmentedControl_Example {
+  umbrella header "Pods-RSSegmentedControl_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

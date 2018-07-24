@@ -1,0 +1,16 @@
+PODS:
+  - RSSegmentedControl (0.1.0)
+
+DEPENDENCIES:
+  - RSSegmentedControl (from `../`)
+
+EXTERNAL SOURCES:
+  RSSegmentedControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RSSegmentedControl: de3ccb838b60e770eb51fbdc21f89cbd4e80c878
+
+PODFILE CHECKSUM: 205b68064fd6a65015d2d3c3766c2de934119c2a
+
+COCOAPODS: 1.4.0.beta.2

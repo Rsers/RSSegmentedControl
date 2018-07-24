@@ -1,0 +1,22 @@
+{
+  "name": "RSSegmentedControl",
+  "version": "0.1.0",
+  "summary": "A short description of RSSegmentedControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rsers/RSSegmentedControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rsers": "rsers@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/rsers/RSSegmentedControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RSSegmentedControl/Classes/**/*"
+}

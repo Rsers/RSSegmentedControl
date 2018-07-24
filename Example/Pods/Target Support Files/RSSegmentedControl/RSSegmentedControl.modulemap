@@ -1,0 +1,6 @@
+framework module RSSegmentedControl {
+  umbrella header "RSSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
