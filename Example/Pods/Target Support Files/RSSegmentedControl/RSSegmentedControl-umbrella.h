@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "RSSegmentedControl.h"
 
 FOUNDATION_EXPORT double RSSegmentedControlVersionNumber;
 FOUNDATION_EXPORT const unsigned char RSSegmentedControlVersionString[];

@@ -7,76 +7,145 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1738AD404CDC64C00946BDCBF8F6F656 /* RSSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 772AE91443E832B60694E27FBF1104B8 /* RSSegmentedControl-dummy.m */; };
-		21F5C4FAC4A798DCD88FA69A9A92E5C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19849F3AC926FBD2FF3A32C79BEE31C2 /* RSSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 918B611D9720E3498BA0794E0232837E /* RSSegmentedControl-dummy.m */; };
+		231778EA705FFA7FC1F6BDB92BB83B31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC31C30AA1B843123575E6EBA38993C /* UIKit.framework */; };
+		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		314C4999E9290E3BAA0BE9700A35C15F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848A22C69638D55424736A7E57530671 /* Foundation.framework */; };
 		34D113DD5CFCE5DB3F79605317F12A46 /* Pods-RSSegmentedControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F48F3526C8B520E0F0772D897F111122 /* Pods-RSSegmentedControl_Tests-dummy.m */; };
-		3F6D936D4938FEFF9C4D70E2D46E72A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		585D627685175DDF39B2BB6454910154 /* Pods-RSSegmentedControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A62BC6341C7A88861BA3E9CD64E29B93 /* Pods-RSSegmentedControl_Example-dummy.m */; };
+		38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC31C30AA1B843123575E6EBA38993C /* UIKit.framework */; };
+		3F6D936D4938FEFF9C4D70E2D46E72A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848A22C69638D55424736A7E57530671 /* Foundation.framework */; };
+		432FA22864D148EBD4CB22F55AB68004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848A22C69638D55424736A7E57530671 /* Foundation.framework */; };
+		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BB9D223F4564EFD59AE3A69605BC9D3 /* Pods-RSSegmentedControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE983EB08D739B833D365BF3280B6FB3 /* Pods-RSSegmentedControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
+		59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
+		6188963B4D743FA49E8984A18D268DDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848A22C69638D55424736A7E57530671 /* Foundation.framework */; };
+		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
+		756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
+		7626D0B93AB809CCEC02358C86027C5E /* RSSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C59F1FC2D41CF272455FA60F5666AC /* RSSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83A00A8216C75BC34CD94F8FE4D7EB75 /* RSSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 97804F55CFA9C91142BE94ACAA219EE3 /* RSSegmentedControl.m */; };
+		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
+		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98B6AE702462393AAFDF0DE8A4A1E31B /* Pods-RSSegmentedControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D84BFEC0072C277F64B005016FEC54C3 /* Pods-RSSegmentedControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A83D47599052E448F10C48472C2A67EF /* Pods-RSSegmentedControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE983EB08D739B833D365BF3280B6FB3 /* Pods-RSSegmentedControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C46AA5AACA57E00AF649D9844655962E /* RSSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B07B4FE1C60742C60A3897350C6BFC7B /* RSSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA40D8D72107894D0012A1DB /* RSSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EA40D8D52107894C0012A1DB /* RSSegmentedControl.m */; };
-		EA40D8D82107894D0012A1DB /* RSSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EA40D8D52107894C0012A1DB /* RSSegmentedControl.m */; };
-		EA40D8D92107894D0012A1DB /* RSSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EA40D8D62107894D0012A1DB /* RSSegmentedControl.h */; };
-		EA40D8DA2107894D0012A1DB /* RSSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EA40D8D62107894D0012A1DB /* RSSegmentedControl.h */; };
-		EFB226614AD3B74E12031B0DE90E263A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */; };
+		A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
+		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98D10E5892F6172F2FACCA477C3D75B /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
+		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7797C0C89909E34E6C13F77FD8A2A59 /* RSSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46BFEE3593D64450C24B38C98AD3708B /* RSSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC3521B1F3098DA49882FA37AAFA4E34 /* Pods-RSSegmentedControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A62BC6341C7A88861BA3E9CD64E29B93 /* Pods-RSSegmentedControl_Example-dummy.m */; };
+		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
+		F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F209C50E1237487E8F12E69CA7AE6D9F /* PBXContainerItemProxy */ = {
+		4CF2AC9B6170428E65E983151EFEB8D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 45FBBCA9B26F25800233FEDCDFA4E2B1;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
+			remoteInfo = Masonry;
+		};
+		606908EB026FAFAAD16D1467746F3A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
+			remoteInfo = Masonry;
+		};
+		DFC8651C9D49D8E246305C4992E974A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD578DDEC96B5CFCC069C22904DAF744;
 			remoteInfo = RSSegmentedControl;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		037BF91B8935E678C251A97016740BBD /* Pods-RSSegmentedControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RSSegmentedControl_Example.modulemap"; sourceTree = "<group>"; };
+		0111E0337CC4E901E9CAE004855CCEF7 /* RSSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSSegmentedControl.framework; path = RSSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		037BF91B8935E678C251A97016740BBD /* Pods-RSSegmentedControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RSSegmentedControl_Example.modulemap"; sourceTree = "<group>"; };
+		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		0C723BEE56979BC6453FCF6F920341C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC31C30AA1B843123575E6EBA38993C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		1AD39F9A4E00DDC1D054CEA1A11D7475 /* Pods-RSSegmentedControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSSegmentedControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		21806EC8B2FB417F84622D16D9A6D39B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		1F82A6FE7E896076711EB9E4B7C5036E /* Pods_RSSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RSSegmentedControl_Tests.framework; path = "Pods-RSSegmentedControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E20798AECD39691AF6A36CD84B27F74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
+		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		3B5E966022D5D86BA514C963B87F57E9 /* Pods-RSSegmentedControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSSegmentedControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3E926A0A6BEB86BD061DF36D693E4551 /* Pods-RSSegmentedControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSSegmentedControl_Example-resources.sh"; sourceTree = "<group>"; };
+		40FC65808DE9900CC037779BE95FA909 /* RSSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSSegmentedControl.xcconfig; sourceTree = "<group>"; };
 		42EABB29D6854B962BB787F4BE8CC9AD /* Pods-RSSegmentedControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSSegmentedControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		55374ADBFBEE73B0A7B6219D4BA3EF30 /* RSSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		46BFEE3593D64450C24B38C98AD3708B /* RSSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		499713E5B31F24F989FC04ABD5249FA8 /* Pods_RSSegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RSSegmentedControl_Example.framework; path = "Pods-RSSegmentedControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		5431D7D9FA9F11C7925853EEE49E0E2B /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FEE531B7DF48529AD74E17D0598E04 /* Pods-RSSegmentedControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSSegmentedControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		746E03487AD23FCB469C01A58DD8C696 /* Pods-RSSegmentedControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSSegmentedControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		772AE91443E832B60694E27FBF1104B8 /* RSSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7B2CACDB68BF6142E2A209B8B027116B /* RSSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		7EE6471B4EB8D132E76C112D1470FC86 /* Pods-RSSegmentedControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSSegmentedControl_Tests-resources.sh"; sourceTree = "<group>"; };
-		884A0B186A179E6E9CDD961851502574 /* Pods_RSSegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSSegmentedControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F44A621BE24B87AEF75DD7193846188 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848A22C69638D55424736A7E57530671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		918B611D9720E3498BA0794E0232837E /* RSSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		92E2271ED0CA8C323F28199620A8D2B7 /* RSSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RSSegmentedControl.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96B85F868D5F8C62CCD71664C8FA3826 /* Pods-RSSegmentedControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSSegmentedControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		97804F55CFA9C91142BE94ACAA219EE3 /* RSSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSegmentedControl.m; path = RSSegmentedControl/Classes/RSSegmentedControl.m; sourceTree = "<group>"; };
+		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		9BA088C1D9D50FFF79123D5D3FBABC2F /* Pods-RSSegmentedControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSSegmentedControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9BB915D2BA1D541E65A2ECCF468592E6 /* RSSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		A62BC6341C7A88861BA3E9CD64E29B93 /* Pods-RSSegmentedControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSSegmentedControl_Example-dummy.m"; sourceTree = "<group>"; };
-		B07B4FE1C60742C60A3897350C6BFC7B /* RSSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
-		BB3D66D96146A3E66207776516AE6EA6 /* Pods-RSSegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RSSegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
-		C109E040ACE8C6FA4BB1EA3FAA385670 /* RSSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		BB3D66D96146A3E66207776516AE6EA6 /* Pods-RSSegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RSSegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
+		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		CE983EB08D739B833D365BF3280B6FB3 /* Pods-RSSegmentedControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSSegmentedControl_Example-umbrella.h"; sourceTree = "<group>"; };
 		D1428627AAA5B44ADD89CCA29A0411C7 /* Pods-RSSegmentedControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSSegmentedControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D2C59F1FC2D41CF272455FA60F5666AC /* RSSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSegmentedControl.h; path = RSSegmentedControl/Classes/RSSegmentedControl.h; sourceTree = "<group>"; };
 		D84BFEC0072C277F64B005016FEC54C3 /* Pods-RSSegmentedControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSSegmentedControl_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DE5B75E65CF7AB64B20BDFDD22094D1B /* RSSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RSSegmentedControl.modulemap; sourceTree = "<group>"; };
 		E7F2D0733A9E5ACF02112E3075070631 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA40D8D52107894C0012A1DB /* RSSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSegmentedControl.m; path = RSSegmentedControl/Classes/RSSegmentedControl.m; sourceTree = "<group>"; };
-		EA40D8D62107894D0012A1DB /* RSSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSegmentedControl.h; path = RSSegmentedControl/Classes/RSSegmentedControl.h; sourceTree = "<group>"; };
+		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		F48F3526C8B520E0F0772D897F111122 /* Pods-RSSegmentedControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSSegmentedControl_Tests-dummy.m"; sourceTree = "<group>"; };
 		F62A8120B5E30ADAEA5D824402AFB8D8 /* Pods-RSSegmentedControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSSegmentedControl_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FE23A1EF02CCDE63A062E3CE49AF7D9B /* Pods_RSSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSSegmentedControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		FFC955246634ECC61921752EF5B43C2A /* Pods-RSSegmentedControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSSegmentedControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		404670F0AA27BA91AC88A1069A745178 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFB226614AD3B74E12031B0DE90E263A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8139EBFE2000765CC7A41D4AC3A0F7A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,11 +154,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC793E6E172ED2F058F7D21B0B0EC13E /* Frameworks */ = {
+		85DA640AB8EB27B1182E3E3AB1BD17C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F5C4FAC4A798DCD88FA69A9A92E5C4 /* Foundation.framework in Frameworks */,
+				314C4999E9290E3BAA0BE9700A35C15F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BFE60C24087EBCDBAF2F3A596AEE14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6188963B4D743FA49E8984A18D268DDC /* Foundation.framework in Frameworks */,
+				B98D10E5892F6172F2FACCA477C3D75B /* Masonry.framework in Frameworks */,
+				231778EA705FFA7FC1F6BDB92BB83B31 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432FA22864D148EBD4CB22F55AB68004 /* Foundation.framework in Frameworks */,
+				38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,42 +211,126 @@
 			path = "Target Support Files/Pods-RSSegmentedControl_Example";
 			sourceTree = "<group>";
 		};
+		14A30F3AAB9514B49B0DE81A7998654B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ECADD22EDA1158B5B4D9C2C57930BAA /* RSSegmentedControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		25EAF1B55F94DC5CB3FAF9F7150CDFC6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E20798AECD39691AF6A36CD84B27F74 /* Info.plist */,
+				92E2271ED0CA8C323F28199620A8D2B7 /* RSSegmentedControl.modulemap */,
+				40FC65808DE9900CC037779BE95FA909 /* RSSegmentedControl.xcconfig */,
+				918B611D9720E3498BA0794E0232837E /* RSSegmentedControl-dummy.m */,
+				7B2CACDB68BF6142E2A209B8B027116B /* RSSegmentedControl-prefix.pch */,
+				46BFEE3593D64450C24B38C98AD3708B /* RSSegmentedControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RSSegmentedControl";
+			sourceTree = "<group>";
+		};
+		59511511C2B4BC905C933DCC67E365C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */,
+				AB02C94D765D376FFAFCAF1BEEEEE566 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F572B7B3F3D4C754E5FE42CEA611615D /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				FC3E1495495A6DA9B5E9B6D20F4850B6 /* Products */,
+				14A30F3AAB9514B49B0DE81A7998654B /* Development Pods */,
+				59511511C2B4BC905C933DCC67E365C4 /* Frameworks */,
+				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
+				9E12BF5D2AB4AF8B1847142B8C3894F8 /* Products */,
 				0170AFBE6F80B46600A386A1EF159B92 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B9266AD5A32774BFAF15D4BEA620259D /* RSSegmentedControl */ = {
+		9E12BF5D2AB4AF8B1847142B8C3894F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA40D8D62107894D0012A1DB /* RSSegmentedControl.h */,
-				EA40D8D52107894C0012A1DB /* RSSegmentedControl.m */,
-				DE4E097C61FD42514F5B62B26A7C7D88 /* Support Files */,
+				5431D7D9FA9F11C7925853EEE49E0E2B /* Masonry.framework */,
+				499713E5B31F24F989FC04ABD5249FA8 /* Pods_RSSegmentedControl_Example.framework */,
+				1F82A6FE7E896076711EB9E4B7C5036E /* Pods_RSSegmentedControl_Tests.framework */,
+				0111E0337CC4E901E9CAE004855CCEF7 /* RSSegmentedControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ECADD22EDA1158B5B4D9C2C57930BAA /* RSSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				D2C59F1FC2D41CF272455FA60F5666AC /* RSSegmentedControl.h */,
+				97804F55CFA9C91142BE94ACAA219EE3 /* RSSegmentedControl.m */,
+				25EAF1B55F94DC5CB3FAF9F7150CDFC6 /* Support Files */,
 			);
 			name = RSSegmentedControl;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */,
+				537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */,
+				ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */,
+				986CB32629319F7F2256662716334944 /* MASConstraint.m */,
+				77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */,
+				A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */,
+				FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */,
+				C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */,
+				611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */,
+				303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */,
+				AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */,
+				96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */,
+				0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */,
+				1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */,
+				6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */,
+				5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */,
+				B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */,
+				F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */,
+				2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */,
+				7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */,
+				61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */,
+				C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */,
+				3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */,
+				AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */,
 			);
-			name = Frameworks;
+			name = Masonry;
+			path = Masonry;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		AB02C94D765D376FFAFCAF1BEEEEE566 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				848A22C69638D55424736A7E57530671 /* Foundation.framework */,
+				0DC31C30AA1B843123575E6EBA38993C /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F44A621BE24B87AEF75DD7193846188 /* Info.plist */,
+				3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */,
+				61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */,
+				FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */,
+				CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */,
+				13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
 		DD33ECE9364E35C4689F52B9805423D9 /* Pods-RSSegmentedControl_Tests */ = {
@@ -179,47 +351,31 @@
 			path = "Target Support Files/Pods-RSSegmentedControl_Tests";
 			sourceTree = "<group>";
 		};
-		DE4E097C61FD42514F5B62B26A7C7D88 /* Support Files */ = {
+		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				21806EC8B2FB417F84622D16D9A6D39B /* Info.plist */,
-				DE5B75E65CF7AB64B20BDFDD22094D1B /* RSSegmentedControl.modulemap */,
-				55374ADBFBEE73B0A7B6219D4BA3EF30 /* RSSegmentedControl.xcconfig */,
-				772AE91443E832B60694E27FBF1104B8 /* RSSegmentedControl-dummy.m */,
-				C109E040ACE8C6FA4BB1EA3FAA385670 /* RSSegmentedControl-prefix.pch */,
-				B07B4FE1C60742C60A3897350C6BFC7B /* RSSegmentedControl-umbrella.h */,
+				A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RSSegmentedControl";
-			sourceTree = "<group>";
-		};
-		F572B7B3F3D4C754E5FE42CEA611615D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B9266AD5A32774BFAF15D4BEA620259D /* RSSegmentedControl */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FC3E1495495A6DA9B5E9B6D20F4850B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				884A0B186A179E6E9CDD961851502574 /* Pods_RSSegmentedControl_Example.framework */,
-				FE23A1EF02CCDE63A062E3CE49AF7D9B /* Pods_RSSegmentedControl_Tests.framework */,
-				9BB915D2BA1D541E65A2ECCF468592E6 /* RSSegmentedControl.framework */,
-			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8134D4FF41F149601B65D1A30AA7FD47 /* Headers */ = {
+		06A179E74D0F128141066577A3541B07 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA40D8D92107894D0012A1DB /* RSSegmentedControl.h in Headers */,
-				A83D47599052E448F10C48472C2A67EF /* Pods-RSSegmentedControl_Example-umbrella.h in Headers */,
+				4BB9D223F4564EFD59AE3A69605BC9D3 /* Pods-RSSegmentedControl_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9E3489C78DD14C0F3E8D899272265A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7797C0C89909E34E6C13F77FD8A2A59 /* RSSegmentedControl-umbrella.h in Headers */,
+				7626D0B93AB809CCEC02358C86027C5E /* RSSegmentedControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,12 +387,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7CA3243A9815485831ADAFE14FE035D /* Headers */ = {
+		F3E9930C736C01D12F5733EFD1F0A948 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA40D8DA2107894D0012A1DB /* RSSegmentedControl.h in Headers */,
-				C46AA5AACA57E00AF649D9844655962E /* RSSegmentedControl-umbrella.h in Headers */,
+				8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */,
+				4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */,
+				C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */,
+				88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */,
+				7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */,
+				457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */,
+				CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */,
+				04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */,
+				636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */,
+				091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */,
+				C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */,
+				D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */,
+				B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */,
+				2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,42 +427,61 @@
 			);
 			name = "Pods-RSSegmentedControl_Tests";
 			productName = "Pods-RSSegmentedControl_Tests";
-			productReference = FE23A1EF02CCDE63A062E3CE49AF7D9B /* Pods_RSSegmentedControl_Tests.framework */;
+			productReference = 1F82A6FE7E896076711EB9E4B7C5036E /* Pods_RSSegmentedControl_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		45FBBCA9B26F25800233FEDCDFA4E2B1 /* RSSegmentedControl */ = {
+		6799C96675BEE03FE9908D31B650B318 /* Pods-RSSegmentedControl_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0893F7B7366CDA78BFBBD730C6C957F2 /* Build configuration list for PBXNativeTarget "RSSegmentedControl" */;
+			buildConfigurationList = B6263D85102B9759E4D93825F522F532 /* Build configuration list for PBXNativeTarget "Pods-RSSegmentedControl_Example" */;
 			buildPhases = (
-				A10A8070526C3A994F6B6426FC88A63B /* Sources */,
-				DC793E6E172ED2F058F7D21B0B0EC13E /* Frameworks */,
-				D7CA3243A9815485831ADAFE14FE035D /* Headers */,
+				640506B3CD3E3E33C27B491D81B29D39 /* Sources */,
+				85DA640AB8EB27B1182E3E3AB1BD17C9 /* Frameworks */,
+				06A179E74D0F128141066577A3541B07 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = RSSegmentedControl;
-			productName = RSSegmentedControl;
-			productReference = 9BB915D2BA1D541E65A2ECCF468592E6 /* RSSegmentedControl.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CBF891EAD59601B84B0F87EFD0BAF777 /* Pods-RSSegmentedControl_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F5ED395AB8C2D6373699A35C70D0A71F /* Build configuration list for PBXNativeTarget "Pods-RSSegmentedControl_Example" */;
-			buildPhases = (
-				6E82FADCBBEFF24E32DDCA18E6ECE177 /* Sources */,
-				404670F0AA27BA91AC88A1069A745178 /* Frameworks */,
-				8134D4FF41F149601B65D1A30AA7FD47 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F56DE227F02D7AC13DFE30B5A299751 /* PBXTargetDependency */,
+				F35FD91753B0FE5D886E6B20037EBB37 /* PBXTargetDependency */,
+				A6F7FDD78B0B06475A40AC2C608975C7 /* PBXTargetDependency */,
 			);
 			name = "Pods-RSSegmentedControl_Example";
 			productName = "Pods-RSSegmentedControl_Example";
-			productReference = 884A0B186A179E6E9CDD961851502574 /* Pods_RSSegmentedControl_Example.framework */;
+			productReference = 499713E5B31F24F989FC04ABD5249FA8 /* Pods_RSSegmentedControl_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD578DDEC96B5CFCC069C22904DAF744 /* RSSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3FBF661AF5E1741AACDCA96FB68D40 /* Build configuration list for PBXNativeTarget "RSSegmentedControl" */;
+			buildPhases = (
+				22201C04DA45FDB684EFC6C4D0D80D99 /* Sources */,
+				B5BFE60C24087EBCDBAF2F3A596AEE14 /* Frameworks */,
+				8B9E3489C78DD14C0F3E8D899272265A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88E403FFC40DB708096B9FDB5A3BD19B /* PBXTargetDependency */,
+			);
+			name = RSSegmentedControl;
+			productName = RSSegmentedControl;
+			productReference = 0111E0337CC4E901E9CAE004855CCEF7 /* RSSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D52144DE9D7255DE912490FF5A806573 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */,
+				F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */,
+				F3E9930C736C01D12F5733EFD1F0A948 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 5431D7D9FA9F11C7925853EEE49E0E2B /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -312,33 +501,51 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FC3E1495495A6DA9B5E9B6D20F4850B6 /* Products */;
+			productRefGroup = 9E12BF5D2AB4AF8B1847142B8C3894F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBF891EAD59601B84B0F87EFD0BAF777 /* Pods-RSSegmentedControl_Example */,
+				D52144DE9D7255DE912490FF5A806573 /* Masonry */,
+				6799C96675BEE03FE9908D31B650B318 /* Pods-RSSegmentedControl_Example */,
 				0BAA066955CBD43DD9C54D904EF30807 /* Pods-RSSegmentedControl_Tests */,
-				45FBBCA9B26F25800233FEDCDFA4E2B1 /* RSSegmentedControl */,
+				CD578DDEC96B5CFCC069C22904DAF744 /* RSSegmentedControl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6E82FADCBBEFF24E32DDCA18E6ECE177 /* Sources */ = {
+		00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				585D627685175DDF39B2BB6454910154 /* Pods-RSSegmentedControl_Example-dummy.m in Sources */,
-				EA40D8D72107894D0012A1DB /* RSSegmentedControl.m in Sources */,
+				53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */,
+				59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */,
+				73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */,
+				6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */,
+				A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */,
+				A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */,
+				756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */,
+				E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */,
+				0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */,
+				8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A10A8070526C3A994F6B6426FC88A63B /* Sources */ = {
+		22201C04DA45FDB684EFC6C4D0D80D99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1738AD404CDC64C00946BDCBF8F6F656 /* RSSegmentedControl-dummy.m in Sources */,
-				EA40D8D82107894D0012A1DB /* RSSegmentedControl.m in Sources */,
+				19849F3AC926FBD2FF3A32C79BEE31C2 /* RSSegmentedControl-dummy.m in Sources */,
+				83A00A8216C75BC34CD94F8FE4D7EB75 /* RSSegmentedControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640506B3CD3E3E33C27B491D81B29D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3521B1F3098DA49882FA37AAFA4E34 /* Pods-RSSegmentedControl_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,18 +560,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F56DE227F02D7AC13DFE30B5A299751 /* PBXTargetDependency */ = {
+		88E403FFC40DB708096B9FDB5A3BD19B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = 4CF2AC9B6170428E65E983151EFEB8D0 /* PBXContainerItemProxy */;
+		};
+		A6F7FDD78B0B06475A40AC2C608975C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RSSegmentedControl;
-			target = 45FBBCA9B26F25800233FEDCDFA4E2B1 /* RSSegmentedControl */;
-			targetProxy = F209C50E1237487E8F12E69CA7AE6D9F /* PBXContainerItemProxy */;
+			target = CD578DDEC96B5CFCC069C22904DAF744 /* RSSegmentedControl */;
+			targetProxy = DFC8651C9D49D8E246305C4992E974A3 /* PBXContainerItemProxy */;
+		};
+		F35FD91753B0FE5D886E6B20037EBB37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = 606908EB026FAFAAD16D1467746F3A46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10A02F149BBE1CF90F9FE5B4A776EA46 /* Debug */ = {
+		0E856C659AD8E4C09B9EC5557F7D727B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFC955246634ECC61921752EF5B43C2A /* Pods-RSSegmentedControl_Example.debug.xcconfig */;
+			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -375,57 +594,51 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RSSegmentedControl_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RSSegmentedControl_Example/Pods-RSSegmentedControl_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RSSegmentedControl_Example;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2C52E3EB4B3FE50956CD77C6BC970436 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F62A8120B5E30ADAEA5D824402AFB8D8 /* Pods-RSSegmentedControl_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RSSegmentedControl_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RSSegmentedControl_Example/Pods-RSSegmentedControl_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RSSegmentedControl_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		1F2B05BDAA1F32F9845FBF35781F57DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -542,9 +755,41 @@
 			};
 			name = Release;
 		};
-		8E84B5AFD996572B3D432798130A2FD0 /* Release */ = {
+		7E15320CA6423681A961244DC6040220 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55374ADBFBEE73B0A7B6219D4BA3EF30 /* RSSegmentedControl.xcconfig */;
+			baseConfigurationReference = FFC955246634ECC61921752EF5B43C2A /* Pods-RSSegmentedControl_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSSegmentedControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSSegmentedControl_Example/Pods-RSSegmentedControl_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RSSegmentedControl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		968D6A8C02603AF63A84E979EC9D8326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FC65808DE9900CC037779BE95FA909 /* RSSegmentedControl.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -572,9 +817,42 @@
 			};
 			name = Release;
 		};
-		A4367E97DA52AE181267AD51237D45FF /* Debug */ = {
+		A7C3BBAC6519A5AF5A8949197E47DD11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55374ADBFBEE73B0A7B6219D4BA3EF30 /* RSSegmentedControl.xcconfig */;
+			baseConfigurationReference = F62A8120B5E30ADAEA5D824402AFB8D8 /* Pods-RSSegmentedControl_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSSegmentedControl_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSSegmentedControl_Example/Pods-RSSegmentedControl_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RSSegmentedControl_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7DDF90F49807ABFEC7FE1C0B0F39633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FC65808DE9900CC037779BE95FA909 /* RSSegmentedControl.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -669,11 +947,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0893F7B7366CDA78BFBBD730C6C957F2 /* Build configuration list for PBXNativeTarget "RSSegmentedControl" */ = {
+		02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4367E97DA52AE181267AD51237D45FF /* Debug */,
-				8E84B5AFD996572B3D432798130A2FD0 /* Release */,
+				1F2B05BDAA1F32F9845FBF35781F57DB /* Debug */,
+				0E856C659AD8E4C09B9EC5557F7D727B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -687,20 +965,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3E3FBF661AF5E1741AACDCA96FB68D40 /* Build configuration list for PBXNativeTarget "RSSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DDF90F49807ABFEC7FE1C0B0F39633 /* Debug */,
+				968D6A8C02603AF63A84E979EC9D8326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6263D85102B9759E4D93825F522F532 /* Build configuration list for PBXNativeTarget "Pods-RSSegmentedControl_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E15320CA6423681A961244DC6040220 /* Debug */,
+				A7C3BBAC6519A5AF5A8949197E47DD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EE2FBD827B0E7E01433136BD0909919B /* Build configuration list for PBXNativeTarget "Pods-RSSegmentedControl_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB162D09EC21C468836AD2D248678172 /* Debug */,
 				BAAB45FA47B872BAEA6947134BDB2084 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F5ED395AB8C2D6373699A35C70D0A71F /* Build configuration list for PBXNativeTarget "Pods-RSSegmentedControl_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10A02F149BBE1CF90F9FE5B4A776EA46 /* Debug */,
-				2C52E3EB4B3FE50956CD77C6BC970436 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

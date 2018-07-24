@@ -1,5 +1,7 @@
 PODS:
-  - RSSegmentedControl (0.1.0)
+  - Masonry (1.0.2)
+  - RSSegmentedControl (2.0.0):
+    - Masonry (~> 1.0.0)
 
 DEPENDENCIES:
   - RSSegmentedControl (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  RSSegmentedControl: de3ccb838b60e770eb51fbdc21f89cbd4e80c878
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  RSSegmentedControl: 2d6082a65f690ea13338a5fe7cbf0f48dda794cc
 
 PODFILE CHECKSUM: 205b68064fd6a65015d2d3c3766c2de934119c2a
 

@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'RSSegmentedControl'
-  s.version          = '1.0.0'
-  s.summary          = 'Masonry-Based SegmentedControl.'
+s.name             = 'RSSegmentedControl'
+s.version          = '2.0.1'
+s.summary          = '基于Masonry的分段控制器.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,27 +17,29 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-                        Easily used in Masonry layout.
-                       DESC
+s.description      = <<-DESC
+如果你的布局使用Masonry，那么这是你最好的选择。
+DESC
+s.dependency 'Masonry', '~> 1.0.0'
 
-  s.homepage         = 'https://github.com/rsers/RSSegmentedControl'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'rsers' => 'rsers@qq.com' }
-  s.source           = { :git => 'https://github.com/rsers/RSSegmentedControl.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'https://github.com/rsers/RSSegmentedControl'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'rsers' => 'rsers@qq.com' }
+s.source           = { :git => 'https://github.com/rsers/RSSegmentedControl.git', :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RSSegmentedControl/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'RSSegmentedControl' => ['RSSegmentedControl/Assets/*.png']
-  # }
+s.source_files = 'RSSegmentedControl/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks = 'UIKit'
-    s.dependency 'Masonry', '~> 1.0.0'
-    s.prefix_header_contents = '#import <UIKit/UIKit.h>', '#import "Masonry.h"'
+# s.resource_bundles = {
+#   'RSSegmentedControl' => ['RSSegmentedControl/Assets/*.png']
+# }
+
+# s.public_header_files = 'RSSegmentedControl/Classes/**/*.h'
+s.frameworks = 'UIKit'
+s.prefix_header_contents = ['#import <UIKit/UIKit.h>', '#import <Masonry/Masonry.h>']
+
 end
+

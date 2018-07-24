@@ -1,8 +1,13 @@
 {
   "name": "RSSegmentedControl",
-  "version": "0.1.0",
-  "summary": "A short description of RSSegmentedControl.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "2.0.0",
+  "summary": "基于Masonry的分段控制器.",
+  "description": "如果你的布局使用Masonry，那么这是你最好的选择。",
+  "dependencies": {
+    "Masonry": [
+      "~> 1.0.0"
+    ]
+  },
   "homepage": "https://github.com/rsers/RSSegmentedControl",
   "license": {
     "type": "MIT",
@@ -13,10 +18,15 @@
   },
   "source": {
     "git": "https://github.com/rsers/RSSegmentedControl.git",
-    "tag": "0.1.0"
+    "tag": "2.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "RSSegmentedControl/Classes/**/*"
+  "source_files": "RSSegmentedControl/Classes/**/*",
+  "frameworks": "UIKit",
+  "prefix_header_contents": [
+    "#import <UIKit/UIKit.h>",
+    "#import <Masonry/Masonry.h>"
+  ]
 }
