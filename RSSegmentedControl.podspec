@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'RSSegmentedControl'
-s.version          = '2.0.1'
+s.version          = '2.0.2'
 s.summary          = '基于Masonry的分段控制器.'
 
 # This description is used to generate tags and improve search results.
@@ -38,8 +38,8 @@ s.source_files = 'RSSegmentedControl/Classes/**/*'
 # }
 
 # s.public_header_files = 'RSSegmentedControl/Classes/**/*.h'
-s.frameworks = 'UIKit'
-s.prefix_header_contents = ['#import <UIKit/UIKit.h>', '#import <Masonry/Masonry.h>']
+  s.frameworks = 'UIKit'
+  s.prefix_header_contents = ['#import <UIKit/UIKit.h>', '#import <Masonry/Masonry.h>']
 
 end
 

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 @protocol RSSegmentedControlDelegate <NSObject>
 - (void)segmentDidSelect:(NSInteger)index;
 @end
