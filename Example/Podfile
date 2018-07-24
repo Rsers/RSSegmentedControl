@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RSSegmentedControl_Example' do
+  pod 'RSSegmentedControl', :path => '../'
+
+  target 'RSSegmentedControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
